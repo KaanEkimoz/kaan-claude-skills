@@ -1,8 +1,6 @@
 # kaan-claude-skills
 
-Claude Code için yazılmış kişisel skill koleksiyonu. Her skill, belirli bir iş akışını uçtan uca otomatize edecek şekilde paketlenmiş; tek bir `.skill` bundle dosyası olarak dağıtılır ve Claude Code tarafından doğrudan yüklenip kullanılabilir.
-
-Bu repo, zaman içinde büyüyecek bir vitrin: her yeni skill ayrı bir bundle olarak eklenecek ve aşağıdaki listede tanıtılacak.
+Claude Code için yazılmış kişisel skill koleksiyonu. Her skill, tek bir `.skill` bundle dosyası olarak dağıtılır ve Claude Code tarafından doğrudan yüklenip kullanılabilir.
 
 ---
 
