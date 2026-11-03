@@ -15,6 +15,8 @@ Claude Code için yazılmış kişisel skill koleksiyonu. Her skill, tek bir `.s
 | [`gemini-gorsel-uretme.skill`](./gemini-gorsel-uretme.skill) | Gemini web arayüzünü Chrome'dan sürerek görsel üretir ve indirir. |
 | [`meshy-3d-assets.skill`](./meshy-3d-assets.skill) | Meshy AI ile oyun için 3D model üretip Unity'ye aktarır. |
 | [`bilgisayari-kapat.skill`](./bilgisayari-kapat.skill) | İş bitince işi kaydedip Mac'i kapatır. |
+| [`tr-alisveris.skill`](./tr-alisveris.skill) | idefix, Trendyol, Hepsiburada ve D&R'da ürün araştırıp sepete ekler. |
+| [`mac-app-uninstaller.skill`](./mac-app-uninstaller.skill) | Mac uygulamasını tüm artık dosyalarıyla birlikte kaldırır. |
 
 ---
 
