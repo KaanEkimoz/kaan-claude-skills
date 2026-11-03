@@ -6,7 +6,19 @@ Claude Code için yazılmış kişisel skill koleksiyonu. Her skill, tek bir `.s
 
 ## Skills
 
-### 1. `en-to-tr-pdf-translation` &mdash; İngilizce PDF → Türkçe Profesyonel Çeviri
+| Skill | Ne yapar |
+|---|---|
+| [`en-to-tr-pdf-translation-v3.skill`](./en-to-tr-pdf-translation-v3.skill) | İngilizce kitap PDF'lerini sayfa düzenini koruyarak Türkçe'ye çevirir. |
+| [`auzef-course-downloader.skill`](./auzef-course-downloader.skill) | AUZEF ders materyallerini indirip baskıya hazır PDF'e çevirir. |
+| [`notebooklm-video-generator.skill`](./notebooklm-video-generator.skill) | NotebookLM'de kaynak başına Türkçe açıklayıcı video üretir. |
+| [`chatgpt-gorsel-uretme.skill`](./chatgpt-gorsel-uretme.skill) | ChatGPT web arayüzünü Chrome'dan sürerek görsel üretir ve indirir. |
+| [`gemini-gorsel-uretme.skill`](./gemini-gorsel-uretme.skill) | Gemini web arayüzünü Chrome'dan sürerek görsel üretir ve indirir. |
+| [`meshy-3d-assets.skill`](./meshy-3d-assets.skill) | Meshy AI ile oyun için 3D model üretip Unity'ye aktarır. |
+| [`bilgisayari-kapat.skill`](./bilgisayari-kapat.skill) | İş bitince işi kaydedip Mac'i kapatır. |
+
+---
+
+### `en-to-tr-pdf-translation` &mdash; İngilizce PDF → Türkçe Profesyonel Çeviri
 
 **Bundle:** [`en-to-tr-pdf-translation-v3.skill`](./en-to-tr-pdf-translation-v3.skill)
 
@@ -86,22 +98,12 @@ Skill otomatik olarak tetiklenir, kitap bilgisi + bölüm yapısı + font tespit
 
 ---
 
-## Yol Haritası
-
-Bu repo aktif olarak büyüyor. Eklenmesi planlanan skill'ler:
-
-- _(Yakında)_ Yeni skill'ler buraya eklenecek.
-
-Yeni bir skill önerisi veya katkı için issue açabilirsin.
-
----
-
 ## Repo yapısı
 
 ```
 kaan-claude-skills/
-├── README.md                              # Bu dosya
-└── en-to-tr-pdf-translation-v3.skill      # PDF çeviri skill bundle'ı
+├── README.md
+└── *.skill        # Her skill tek bir bundle dosyası
 ```
 
 Her skill, kendi kendine yeten tek bir `.skill` bundle dosyası olarak repo köküne eklenir.
